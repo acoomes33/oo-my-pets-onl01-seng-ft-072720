@@ -45,7 +45,11 @@ class Owner
     end
     
     def buy_cat(cat)
-      if self.find{|cat|}
-    end
+    cats << Cat.new(cat,self)
+  end
+  
+  def buy_dog(dog)
+    dogs << Dog.new(dog,self)
+  end
    
 end
