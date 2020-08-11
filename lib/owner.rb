@@ -60,4 +60,9 @@ class Owner
    cats.collect{|cat| cat.mood = "happy"}
  end 
  
+ def sell_pets
+   pets = cats + dogs 
+   pets.collect{|pet| pet.mood = "nervous"}
+ end 
+ 
 end
