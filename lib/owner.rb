@@ -45,6 +45,7 @@ class Owner
     end
     
     def buy_cat(cat)
+      if self.find{|cat|}
     end
    
 end
